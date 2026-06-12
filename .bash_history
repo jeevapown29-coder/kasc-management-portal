@@ -86,3 +86,6 @@ git init
 echo ".cache/" > .gitignore
 echo ".node_modules/" >> .gitignore
 echo "codeoss-cloudshell-*" >> .gitignore
+git add .
+git commit -m "Initial clean commit"
+git rm -rf --cached node_modules
