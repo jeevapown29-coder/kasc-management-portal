@@ -1,5 +1,17 @@
 {
+  "name": "kasc-management-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "firebase": "^12.14.0"
+    "firebase": "^12.14.0",
+    "next": "15.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
